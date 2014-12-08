@@ -1,0 +1,56 @@
+
+Server is listening port 2006 and 2007
+Server is listening port 2006 and 2007
+Server is listening port 2006 and 2007
+Build connection on port 2006
+Unable to read from or write to client: Connection reset
+Server is listening port 2043 and 2044
+Build connection on port 2043
+User information found
+password right
+User amber login successfully
+Returning user login
+Build connection on port 2044
+User information found
+password right
+User vicky login successfully
+Returning user login
+Unable to read from or write to client: Connection reset
+Server is listening port 2043 and 2044
+Build connection on port 2043
+User information found
+password right
+User vicky login successfully
+Returning user login
+Build connection on port 2044
+User information found
+password right
+User amber login successfully
+Returning user login
+Refresh start
+Data after Refresh:  amber  11 9 0.55
+Data after Refresh:  12  1 1 0.5
+Data after Refresh:  34  0 0 0.0
+Data after Refresh:  23  0 1 0.0
+Data after Refresh:  vicky  10 11 0.47619048
+Refresh Over
+Refresh start
+Data after Refresh:  12  1 1 0.5
+Data after Refresh:  34  0 0 0.0
+Data after Refresh:  23  0 1 0.0
+Data after Refresh:  vicky  10 11 0.47619048
+Data after Refresh:  amber  11 10 0.52380955
+Refresh Over
+Sort user data
+First:amber 11 10 0.52380955
+Second:12 1 1 0.5
+Third: vicky 10 11 0.47619048
+Sort complete
+Server is listening port 2043 and 2044
+Build connection on port 2043
+Returning user login
+User information found
+password right
+User vicky login successfully
+Disconnect with players. Connection reset.
+Please input port number 1 and 2.

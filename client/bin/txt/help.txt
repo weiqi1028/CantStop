@@ -1,0 +1,21 @@
+Just one more roll.
+
+Practice saying this. Because you'll find yourself saying it a lot when playing Can't Stop, a Sid Sackson game from Parker Brothers that more than lived up to its name.
+
+As if to taunt you, the red plastic game board is shaped like a big stop sign. It contains eleven columns numbered 2-12. Each column is made up of a series of depressions. The 2 and 12 columns, the numbers least likely to be rolled on a pair of dice, have only two spaces. As the probabilty of rolling a number increases, so does the number of spaces in the corresponding column. The most common number, 7, has thirteen spaces.
+
+On a player's turn, he rolls four dice and splits them into two pairs. Totalling the values of each pair of dice yields two numbers. The player takes a token and places it at the bottom of the columns which correspond to those numbers. If the totals on the pair of dice happen to be the same, he only places one token on the board but he advances it one space up the column.
+
+At this point, the player has a choice to roll again or to stop. If he chooses to roll again, he rerolls all four dice and again splits them up into pairs, yielding two new numbers. If these numbers already have tokens on their columns, the tokens are advanced. If not, tokens are brought onto the board at the bottom of the appropriate columns. There are only three tokens, which means that a player can only work with three columns each turn. If all three are already one the board and one of his pairs yields a value which does not have a token, he only advances the token for the other value.
+
+As long as the player rolls "good" numbers matching the columns where he has tokens he may continue to roll. If the player chooses to stop, his turn ends and he places a marker of his color on the spaces currently occupied by the movement tokens, locking in his progress on those columns. On his next turn, if he is able to put a token on a column where he already has a marker, the token starts one space above the marker instead of at the bottom of the column. If you stop with your token at the top of a column, you claim that column. All other markers are removed from it, and that column can't be used for the rest of the game. Claim three columns and you win.
+
+If you roll the dice and are unable to form a pair which allows you to move a token, you crap out. The movement tokens are removed from the board and you lose all the progress you've made in that turn. Your colored markers from previous turns, however, stay in place.
+
+There are actually a few ways to crap out. The most common is by having all three tokens on the board and not rolling any "good" numbers. Or you might have some tokens off the board waiting to go on, but the numbers you roll can only form columns which have already been claimed. You could reach the top of a column (say, the 7) and get piggish instead of stopping, you could keep rolling hoping to finish off another column on the same turn. If your dice can only form "bad" numbers and sevens, you're hosed you can't move any higher than the top of a column, so more sevens aren't good.
+
+Obviously, it's to your advantage to keep tokens off the board for as long as possible, leaving yourself with an escape route in case of a bad roll. Having tokens on the 6, 7, and 8 columns in the same turn is a great position to be in it's very likely you can make it all the way to the top in one of them on one turn.
+
+Although luck plays an important role, knowing when to stop makes an enormous difference. It's always so tempting to roll just one more time. And then one more. And then one more... Choosing which columns to work on is also key. Some people like the middle columns because they're easier to roll, but they also take more hits to complete. The outside columns are much shorter, but they come up less often.
+
+All your progress in a column is lost if someone else gets to the top first, so sometimes it's worthwhile to pass up a chance at "better" numbers to advance your token in a contested column. And as the game progresses and more columns get claimed, fewer and fewer numbers remain legal. With four players, the end game can be grueling, slow going with players choosing to stop even while some tokens remain off the board.

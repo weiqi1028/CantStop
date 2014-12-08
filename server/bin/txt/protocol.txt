@@ -1,0 +1,28 @@
+Here is a description Can't Stop protocol:
+
+After two players have connected to the server, the Game Manager sends out a message to each player. Each message contains a number indicating whether the person is Player 1 or Player 2 (Note: Player 1 will get to play first). This is followed by a sequence of repeating message sets:
+The first in each set is from the active player (the one whose turn it currently is) and is a textual string that indicates what they wish to do: "roll", if they want to roll the 4 dice, or "stop" if they wish to end their turn.
+If the player chooses to stop, any temporary markers that are on the board at that time are replaced with permanent markers for that player. The server then checks to see if the player has maybe won the game (i.e. if they have managed to place permanent markers at the top of 3 columns).
+If so, the server sends the message "you won" to that player, and "you lost" to his/her opponent. The game is then over (and the message exchange would end.)
+If the player has not yet conquered 3 columns, the server responds with "ack" and play passes to the other player (i.e. the other player becomes the active player). The server sends the message "go" to the other player indicating that it is now their turn. We then return to step 2.
+However, if the player chooses to roll, the server then responds by sending both players a string containing 4 comma-delimited numbers, each between 1 and 6 inclusive, (for example: "1,4,2,4"); these numbers indicate the result of rolling the dice.
+The active player (the one whose turn it is) will examine the four numbers and decide how to split the dice in half (forming two groups, each containing two dice). The player will add the two dice in each half to create a pair of numbers. (Example: if a player rolls a 1, 4, 2, and 4, they could create the following pairs: 5 and 6 (from 1+4 and 2+4) or 3 and 8 (from 1+2 and 4+4)). The pair of numbers that the player chooses indicate the column(s) where the player must place or advance temporary marker(s).
+Side notes...
+Placing/advancing a marker:
+There are 3 temporary markers that can be used during a player's turn.
+If the player chooses a column that does not already contain one of his/her permanent markers, the temporary marker will be placed onto the space at the bottom of that column.
+If the player chooses a column that does already have one of his/her permanent markers in it, the temporary marker will be placed onto the space directly above the permanent marker.
+It is OK to place a marker onto a space that is already occupied by the other player.
+If a player can place a marker on their roll, they must.
+A player may not place a temporary marker on a column that has already been conquered (i.e. someone has already placed a permanent marker at the top of that column).
+If the player has rolled previously on this turn (and therefore has one or more of the three temporary markers already on the board), he/she might choose a column that already contains a temporary marker. In this case, the existing marker is advanced one space.
+Crapping out:
+If the player is unable to form a pair that permits him/her to make a move, they have "crapped out". This can happen if:
+He/she had previously placed all 3 temporary markers and cannot form a pair that allows him/her to advance any of these.
+He/she has one or more remaining markers, but can only form pairs containing previously-conquered columns. (Once one of the players places a permanent marker at the top of a column, it has been conquered and can no longer be used in game play.)
+Back to the protocol...
+After the active player examines the dice, he/she will repsond to the server with either: a string containg two comma-delimited numbers (indicating the pair that they have selected; e.g. "3,8"), or "crap" (if they are unable to play). Side Note: In the situation where only one of the three temporary marker remains to be placed, it will be placed into the column corresponding to the first number from the selected pair (unless a temporary marker already exists in that column).
+Server's response:
+If the player craps out, all temporary markers are removed from the game board. The server responds to their "crap" message with "ack", and sends a "go" message to the other player (indicating that it is now their turn. We then return to step 2.
+If the player attempts to make an illegal move, (e.g. they select a pairing that can not be formed from the result of their dice roll), the server responds with "err" and then waits for the player to try again (i.e. return to step 5)
+If a legal move is received, the server then responds to the player with "ack", and sends the selected pair (e.g. "3,8") along to the other player for their information. We then return to step 2.
