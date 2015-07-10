@@ -4,9 +4,9 @@ CantStop
 Can't stop board game
 
 Firstly, Server should create a game as following:
-1. Execute server.
-2. Server will get its IP address and name automatically, you need to input two port numbers, and then click "Create" button to create a game. Note: port number 1 will be connected first.
-3. Server log is displayed on the server interface, click "Refresh" button to refresh server log, click "Protocol" button bo view Can't Stop protocol, click "SaveLog" button to save server log, click "User OL" button to check who is on line.
+  1. Execute server.
+  2. Server will get its IP address and name automatically, you need to input two port numbers, and then click "Create" button to create a game. Note: port number 1 will be connected first.
+  3. Server log is displayed on the server interface, click "Refresh" button to refresh server log, click "Protocol" button bo view Can't Stop protocol, click "SaveLog" button to save server log, click "User OL" button to check who is on line.
 
 Then, client should be executed to connect to server and begin the game as following:
   1. Execute client.
